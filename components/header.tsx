@@ -13,13 +13,12 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center">
             <img
               src="/logo-alfa-climatizacao.png"
               alt="Alfa Climatização Logo"
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
-            <span className="text-xl font-bold text-foreground">Alfa Climatização</span>
           </Link>
 
           {/* Desktop Navigation */}

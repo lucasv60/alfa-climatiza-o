@@ -12,13 +12,12 @@ export default function LandingPage() {
       {/* Header Simplificado */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center">
             <img
               src="/logo-alfa-climatizacao.png"
               alt="Alfa Climatização Logo"
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
-            <span className="font-bold text-xl text-foreground">Alfa Climatização</span>
           </Link>
           <div className="flex items-center gap-4">
             <a
@@ -292,13 +291,12 @@ export default function LandingPage() {
       <footer className="border-t bg-muted/30 py-8">
         <div className="container">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center">
               <img
                 src="/logo-alfa-climatizacao.png"
                 alt="Alfa Climatização Logo"
-                className="h-12 w-auto"
+                className="h-16 w-auto"
               />
-              <span className="font-bold text-lg text-foreground">Alfa Climatização</span>
             </div>
 
             <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">

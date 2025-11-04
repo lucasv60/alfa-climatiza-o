@@ -8,13 +8,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center">
               <img
                 src="/logo-alfa-climatizacao.png"
                 alt="Alfa Climatização Logo"
-                className="h-12 w-auto"
+                className="h-16 w-auto"
               />
-              <span className="text-xl font-bold text-foreground">Alfa Climatização</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Soluções completas em refrigeração para seu negócio. Qualidade, segurança e eficiência.
