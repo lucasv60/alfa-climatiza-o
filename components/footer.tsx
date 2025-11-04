@@ -8,10 +8,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <span className="text-xl font-bold text-primary-foreground">AC</span>
-              </div>
+            <div className="flex items-center gap-3">
+              <img
+                src="/imagens/logo-alfa-climatizacao.png"
+                alt="Alfa Climatização Logo"
+                className="h-12 w-auto"
+              />
               <span className="text-xl font-bold text-foreground">Alfa Climatização</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
