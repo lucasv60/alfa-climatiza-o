@@ -15,7 +15,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <img
-              src="/imagens/logo-alfa-climatizacao.png"
+              src="/logo-alfa-climatizacao.png"
               alt="Alfa Climatização Logo"
               className="h-10 w-auto"
             />

@@ -35,7 +35,7 @@ export default function SobrePage() {
               <div className="relative h-[400px] lg:h-[500px]">
                 <div className="absolute top-4 left-4 z-10 bg-white/90 backdrop-blur-sm rounded-lg p-4 shadow-lg">
                   <img
-                    src="/imagens/logo-alfa-climatizacao.png"
+                    src="/logo-alfa-climatizacao.png"
                     alt="Alfa Climatização Logo"
                     className="h-16 w-auto"
                   />

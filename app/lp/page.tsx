@@ -14,7 +14,7 @@ export default function LandingPage() {
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
             <img
-              src="/imagens/logo-alfa-climatizacao.png"
+              src="/logo-alfa-climatizacao.png"
               alt="Alfa Climatização Logo"
               className="h-10 w-auto"
             />
@@ -294,7 +294,7 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-3">
               <img
-                src="/imagens/logo-alfa-climatizacao.png"
+                src="/logo-alfa-climatizacao.png"
                 alt="Alfa Climatização Logo"
                 className="h-12 w-auto"
               />

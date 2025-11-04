@@ -10,7 +10,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/imagens/logo-alfa-climatizacao.png"
+                src="/logo-alfa-climatizacao.png"
                 alt="Alfa Climatização Logo"
                 className="h-12 w-auto"
               />
